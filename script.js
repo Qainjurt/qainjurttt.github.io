@@ -42,7 +42,6 @@ function changeLanguage() {
         }
     };
 
-    // ID арқылы мәтіндерді ауыстыру
     document.getElementById("welcome-text") && (document.getElementById("welcome-text").innerText = texts[lang].welcome);
     document.getElementById("welcome-desc") && (document.getElementById("welcome-desc").innerText = texts[lang].welcome_desc);
     document.getElementById("menu-title") && (document.getElementById("menu-title").innerText = texts[lang].menu);
