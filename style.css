@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f9f9f9 url('images/ornament.png') repeat; /* Қазақи ою-өрнек фоны */
+    background: #f9f9f9 url('images/ornament.png') repeat;
     color: #333;
 }
 
 header {
-    background: #a83232; /* Жылы қызыл түс */
+    background: #a83232;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -32,7 +32,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #ffd700; /* Сары түс, hover кезінде */
+    color: #ffd700;
 }
 
 nav select {
@@ -82,17 +82,18 @@ h2 {
 }
 
 .menu-item:hover {
-    transform: scale(1.05); /* Анимация: hover кезінде үлкейту */
+    transform: scale(1.05);
 }
 
 .menu-image {
     border-radius: 10px;
     margin-bottom: 10px;
     transition: opacity 0.3s;
+    max-width: 200px;
 }
 
 .menu-image:hover {
-    opacity: 0.8; /* Анимация: hover кезінде мөлдірлену */
+    opacity: 0.8;
 }
 
 .gallery {
@@ -110,7 +111,7 @@ h2 {
 }
 
 .gallery-image:hover {
-    transform: scale(1.1); /* Анимация: hover кезінде үлкейту */
+    transform: scale(1.1);
 }
 
 form {
